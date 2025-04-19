@@ -22,12 +22,7 @@ export default function Resources() {
               unique needs.
             </p>
 
-            <p className="mb-4">
-              Healthy Aging for America (HAFA) recognizes that while there is significant focus on the health of senior
-              citizens (age 65+), it is equally important to address the health of older adults transitioning into
-              seniorhood. To address this gap, HAFA adopts a dual approach that offers both direct educational support
-              and accessible technological solutions to enhance the healthcare experiences of older adults.
-            </p>
+            
           </div>
 
           <HealthcareResourcesList locations={healthcareLocations} />

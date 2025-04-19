@@ -17,49 +17,37 @@ interface Partner {
 
 const teamMembers: TeamMember[] = [
   {
-    name: "Dr. Sarah Johnson",
-    role: "Director",
-    email: "sarah.johnson@hafa.org",
-    image: "/images/team1.jpg",
+    name: "Sarah Yim",
+    role: "President",
+    email: "sarah.yim@duke.edu",
+    image: "/images/sarah.jpeg",
   },
   {
-    name: "Michael Chen",
-    role: "Program Coordinator",
-    email: "michael.chen@hafa.org",
-    image: "/images/team2.jpg",
+    name: "Monica Shao",
+    role: "Vice President",
+    email: "monica.shao@duke.edu",
+    image: "/images/monica.png",
   },
   {
-    name: "Dr. Robert Williams",
-    role: "Research Lead",
-    email: "robert.williams@hafa.org",
-    image: "/images/team3.jpg",
+    name: "Katherine Zhang",
+    role: "Treasurer",
+    email: "kat.zhang@duke.edu",
+    image: "/images/kat.jpeg",
   },
   {
-    name: "Amara Patel",
-    role: "Community Outreach",
-    email: "amara.patel@hafa.org",
-    image: "/images/team4.jpg",
+    name: "Kayla Liang",
+    role: "Digital Health Committee Chair",
+    email: "kayla.liang@duke.edu",
+    image: "/images/kayla.jpeg",
   },
 ]
 
 const partners: Partner[] = [
   {
-    name: "Duke University School of Medicine",
-    description: "Academic partner providing research support and clinical expertise.",
-    logo: "/images/partner1.jpg",
-    website: "https://medschool.duke.edu",
-  },
-  {
-    name: "Durham Senior Center",
-    description: "Community partner helping connect seniors with our resources and programs.",
-    logo: "/images/partner2.jpg",
-    website: "https://www.dprplaymore.org/224/Senior-Programs",
-  },
-  {
-    name: "North Carolina Aging Coalition",
-    description: "Advocacy partner working to improve policies affecting older adults.",
-    logo: "/images/partner3.jpg",
-    website: "https://ncaging.org",
+    name: "Durham Center for Senior Life",
+    description: "Volunteering partner",
+    logo: "/images/dcsl.png",
+    website: "https://dcslnc.org/",
   },
 ]
 
@@ -72,15 +60,15 @@ export default function Contact() {
           <h1 className="text-4xl font-bold mb-6">Contact Us</h1>
 
           <div className="mb-12">
-            <h2 className="text-2xl font-semibold mb-4">Club Email</h2>
+            <h2 className="text-2xl font-semibold mb-4">Instagram</h2>
             <p className="text-lg mb-2">
-              <a href="mailto:info@hafa.org" className="text-blue-600 hover:underline">
-                info@hafa.org
+              <a className="text-blue-600 hover:underline">
+                @dukehafa
               </a>
             </p>
             <p className="text-gray-600">
               For general inquiries, partnership opportunities, or to learn more about our programs, please reach out to
-              our team email.
+              sarah.yim@duke.edu.
             </p>
           </div>
 
