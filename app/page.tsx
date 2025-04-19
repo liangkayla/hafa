@@ -13,7 +13,7 @@ export default function Home() {
 
           <Link href="/join">
             <button className="bg-black text-white px-6 py-3 rounded-sm hover:bg-gray-800 mb-12">
-              Join our listserv!
+              Join our listserv!!!!!!!!
             </button>
           </Link>
 
