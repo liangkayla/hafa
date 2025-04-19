@@ -1,17 +1,7 @@
 import Navbar from "@/components/navbar"
-import dynamic from "next/dynamic"
+import MapContainer from "@/components/map-container"
 import HealthcareResourcesList from "@/components/healthcare-resources-list"
 import { healthcareLocations } from "@/lib/healthcare-data"
-
-// Import the map component dynamically with no SSR
-const MapComponent = dynamic(() => import("@/components/map-component"), {
-  ssr: false,
-  loading: () => (
-    <div className="h-[500px] flex items-center justify-center bg-gray-100">
-      <p>Loading map...</p>
-    </div>
-  ),
-})
 
 export default function Resources() {
   return (
@@ -23,7 +13,7 @@ export default function Resources() {
           <p className="text-lg mb-8">Use the tool below to find healthcare services near you!</p>
 
           <div className="mb-8 border rounded-md overflow-hidden h-[500px] relative">
-            <MapComponent locations={healthcareLocations} />
+            <MapContainer locations={healthcareLocations} />
           </div>
 
           <div className="mb-12">
