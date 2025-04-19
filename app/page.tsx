@@ -19,7 +19,7 @@ export default function Home() {
 
           <div className="flex justify-center mb-16">
             <Image
-              src="/public/images/hafa.png"
+              src="/images/hafa-logo.png"
               alt="HAFA Logo"
               width={500}
               height={400}

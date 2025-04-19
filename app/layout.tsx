@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Healthy Aging for America",
   description: "Resources and information for healthy aging",
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({

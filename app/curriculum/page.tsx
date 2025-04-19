@@ -38,7 +38,7 @@ export default function Curriculum() {
           </div>
           <div className="flex justify-center">
             <Image
-              src="/public/images/people.jpg"
+              src="/images/conversation.png"
               alt="People talking"
               width={400}
               height={300}
@@ -51,7 +51,7 @@ export default function Curriculum() {
         <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
           <div className="order-2 md:order-1">
             <Image
-              src="/public/images/medications.jpg"
+              src="/images/medications.png"
               alt="Medications"
               width={400}
               height={300}
@@ -76,7 +76,7 @@ export default function Curriculum() {
             <div className="grid grid-cols-2 gap-6 items-start">
               <div>
                 <Image
-                  src="/public/images/sad.jpg"
+                  src="/images/depression.png"
                   alt="Depression illustration"
                   width={250}
                   height={250}
@@ -98,7 +98,7 @@ export default function Curriculum() {
               </div>
               <div>
                 <Image
-                  src="/public/images/anxiety.jpg"
+                  src="/images/anxiety.png"
                   alt="Anxiety illustration"
                   width={250}
                   height={250}
@@ -116,7 +116,7 @@ export default function Curriculum() {
               </div>
               <div>
                 <Image
-                  src="/public/images/think.jpg"
+                  src="/images/reflection.png"
                   alt="Reflection illustration"
                   width={250}
                   height={250}
